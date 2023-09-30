@@ -29,7 +29,7 @@ public class Ran_Num_Game {
             System.out.print("Enter the level number or '0' to quit: ");
 
             int levelChoice = input.nextInt();
-            input.nextLine(); // Consume the newline character
+            input.nextLine(); 
 
             if (levelChoice == 0) {
                 playAgain = false;
@@ -79,7 +79,7 @@ public class Ran_Num_Game {
 
             System.out.print("Do you want to play another round? (yes/no): ");
             String playAgainChoice = input.next().toLowerCase();
-            input.nextLine(); // Consume the newline character
+            input.nextLine(); 
 
             if (!playAgainChoice.equals("yes")) {
                 playAgain = false;
